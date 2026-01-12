@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog | [NOMBRE DE LA EMPRESA]</title>
+  <meta name="description" content="Consejos de mantenimiento, seguridad y operación para equipos odontológicos." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ir al inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+            <path d="M7 12c0-3 2-6 5-6s5 3 5 6-2 8-5 8-5-5-5-8Z" stroke="currentColor" stroke-width="1.8"/>
+            <path d="M9 12h6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">[NOMBRE DE LA EMPRESA]</span>
+          <span class="brand-tag">Blog</span>
+        </span>
+      </a>
+
+      <details class="nav-wrap">
+        <summary class="nav-summary" aria-label="Abrir menú">
+          <span class="sr-only">Abrir menú</span>
+          <span class="burger" aria-hidden="true"></span>
+        </summary>
+
+        <nav class="site-nav" aria-label="Navegación principal">
+          <a href="index.html">Inicio</a>
+          <a href="index.html#servicios">Servicios</a>
+          <a href="blog.html" aria-current="page">Blog</a>
+          <a href="index.html#sobre">Sobre nosotros</a>
+          <a href="index.html#contacto">Contacto</a>
+        </nav>
+      </details>
+
+      <nav class="site-nav site-nav--desktop" aria-label="Navegación principal (desktop)">
+        <a href="index.html">Inicio</a>
+        <a href="index.html#servicios">Servicios</a>
+        <a href="blog.html" aria-current="page">Blog</a>
+        <a href="index.html#sobre">Sobre nosotros</a>
+        <a href="index.html#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Recursos para clínicas y consultorios</p>
+        <h1>Blog técnico</h1>
+        <p class="lead">Buenas prácticas, mantenimiento preventivo y recomendaciones de operación segura (contenido editable).</p>
+
+        <!-- Barra de búsqueda visual (UI-only, sin JS) -->
+        <form class="search" role="search" aria-label="Buscar en el blog (solo interfaz)">
+          <label class="sr-only" for="q">Buscar</label>
+          <input id="q" name="q" type="search" placeholder="Buscar artículos (UI)..." />
+          <button class="btn btn-secondary" type="submit">Buscar</button>
+        </form>
+
+        <!-- Chips de categorías (solo UI) -->
+        <div class="chips" aria-label="Categorías">
+          <a class="chip chip-active" href="#" aria-current="true">Todos</a>
+          <a class="chip" href="#">Autoclaves</a>
+          <a class="chip" href="#">Sillones</a>
+          <a class="chip" href="#">Compresores</a>
+          <a class="chip" href="#">Electricidad</a>
+          <a class="chip" href="#">Mantenimiento</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid posts-8">
+          <!-- Repite 8 cards (placeholder). Puedes duplicar / eliminar sin romper el grid -->
+          <article class="card post-card">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Checklist básico para mantenimiento preventivo">
+              <span class="media-badge">Mantenimiento</span>
+              <span class="media-placeholder" aria-hidden="true"></span>
+            </a>
+            <div class="post-body">
+              <p class="meta">[FECHA] · <span class="tag">Mantenimiento</span></p>
+              <h2 class="post-title"><a href="post.html">Checklist básico para mantenimiento preventivo</a></h2>
+              <p class="small">Guía breve para reducir fallas recurrentes y mejorar la operación diaria del consultorio.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card post-card">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Errores comunes en autoclaves (señales tempranas)">
+              <span class="media-badge">Autoclaves</span>
+              <span class="media-placeholder" aria-hidden="true"></span>
+            </a>
+            <div class="post-body">
+              <p class="meta">[FECHA] · <span class="tag">Autoclaves</span></p>
+              <h2 class="post-title"><a href="post.html">Errores comunes en autoclaves (señales tempranas)</a></h2>
+              <p class="small">Qué observar antes de que el equipo falle en momentos críticos y afecte la agenda.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card post-card">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Sillón odontológico: fallas típicas y prevención">
+              <span class="media-badge">Sillones</span>
+              <span class="media-placeholder" aria-hidden="true"></span>
+            </a>
+            <div class="post-body">
+              <p class="meta">[FECHA] · <span class="tag">Sillones</span></p>
+              <h2 class="post-title"><a href="post.html">Sillón odontológico: fallas típicas y prevención</a></h2>
+              <p class="small">Recomendaciones de cuidado para electrónica, actuadores, controles y conexiones.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card post-card">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Compresores: cómo detectar fugas y caídas de presión">
+              <span class="media-badge">Compresores</span>
+              <span class="media-placeholder" aria-hidden="true"></span>
+            </a>
+            <div class="post-body">
+              <p class="meta">[FECHA] · <span class="tag">Compresores</span></p>
+              <h2 class="post-title"><a href="post.html">Compresores: detectar fugas y caídas de presión</a></h2>
+              <p class="small">Indicadores simples que ayudan a evitar inestabilidad en equipos neumáticos.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card post-card">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Electricidad en consultorio: buenas prácticas básicas">
+              <span class="media-badge">Electricidad</span>
+              <span class="media-placeholder" aria-hidden="true"></span>
+            </a>
+            <div class="post-body">
+              <p class="meta">[FECHA] · <span class="tag">Electricidad</span></p>
+              <h2 class="post-title"><a href="post.html">Electricidad en consultorio: buenas prácticas básicas</a></h2>
+              <p class="small">Recomendaciones generales para minimizar riesgos y fallas por alimentación.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card post-card">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Señales de desgaste en esterilización y sellos">
+              <span class="media-badge">Esterilización</span>
+              <span class="media-placeholder" aria-hidden="true"></span>
+            </a>
+            <div class="post-body">
+              <p class="meta">[FECHA] · <span class="tag">Esterilización</span></p>
+              <h2 class="post-title"><a href="post.html">Señales de desgaste en esterilización y sellos</a></h2>
+              <p class="small">Cómo reconocer síntomas de sellado deficiente y cuándo pedir revisión técnica.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card post-card">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Limpieza técnica: qué sí y qué no hacer">
+              <span class="media-badge">Mantenimiento</span>
+              <span class="media-placeholder" aria-hidden="true"></span>
+            </a>
+            <div class="post-body">
+              <p class="meta">[FECHA] · <span class="tag">Mantenimiento</span></p>
+              <h2 class="post-title"><a href="post.html">Limpieza técnica: qué sí y qué no hacer</a></h2>
+              <p class="small">Evita daños por productos inadecuados y conserva conectores y componentes.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card post-card">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Cómo preparar el consultorio antes de una visita técnica">
+              <span class="media-badge">Operación</span>
+              <span class="media-placeholder" aria-hidden="true"></span>
+            </a>
+            <div class="post-body">
+              <p class="meta">[FECHA] · <span class="tag">Operación</span></p>
+              <h2 class="post-title"><a href="post.html">Preparación del consultorio antes de una visita técnica</a></h2>
+              <p class="small">Datos clave que aceleran diagnóstico: síntomas, historial y condiciones de energía/aire.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Paginación visual (UI-only) -->
+        <nav class="pagination" aria-label="Paginación (solo interfaz)">
+          <a class="page" href="#" aria-disabled="true">Anterior</a>
+          <a class="page is-active" href="#" aria-current="page">1</a>
+          <a class="page" href="#">2</a>
+          <a class="page" href="#">3</a>
+          <span class="page dots" aria-hidden="true">…</span>
+          <a class="page" href="#">Siguiente</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p class="small">© <span>[AÑO]</span> [NOMBRE DE LA EMPRESA]. Contenido del blog editable. </p>
+    </div>
+  </footer>
+</body>
+</html>

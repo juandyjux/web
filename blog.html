@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blog | Tecnodent</title>
+  <meta name="description" content="Consejos de mantenimiento, seguridad y operación para equipos odontológicos." />
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="theme-color" content="#111827" />
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Ir al inicio">
+        <span class="brand-mark" aria-hidden="true">
+          <img class="brand-mark__img" src="assets/img/Logo.svg" width="28" height="28" alt="" decoding="async" />
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">Tecnodent</span>
+          <span class="brand-tag">Blog</span>
+        </span>
+      </a>
+
+      <details class="nav-wrap">
+        <summary class="nav-summary" aria-label="Abrir menú">
+          <span class="sr-only">Abrir menú</span>
+          <span class="nav-icon" aria-hidden="true"></span>
+        </summary>
+
+        <nav class="nav" aria-label="Navegación principal">
+          <a href="index.html#servicios">Servicios</a>
+          <a href="index.html#proceso">Proceso</a>
+          <a href="index.html#faq">FAQ</a>
+          <a href="index.html#contacto" class="nav-cta">Contacto</a>
+          <a href="blog.html" aria-current="page">Blog</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Tecnodent · Recursos para clínicas y consultorios</p>
+        <h1>Blog técnico</h1>
+        <p class="lead">Buenas prácticas, mantenimiento preventivo y recomendaciones de operación segura (contenido editable).</p>
+
+        <!-- Barra de búsqueda visual (UI-only, sin JS) -->
+        <form class="search" role="search" aria-label="Buscar en el blog (solo interfaz)">
+          <label class="sr-only" for="q">Buscar</label>
+          <input id="q" name="q" type="search" placeholder="Buscar artículos (UI)..." />
+          <button class="btn btn-secondary" type="submit">Buscar</button>
+        </form>
+
+        <!-- Chips de categorías (solo UI) -->
+        <div class="chips" aria-label="Categorías (solo interfaz)">
+          <button class="chip is-active" type="button">Todos</button>
+          <button class="chip" type="button">Mantenimiento</button>
+          <button class="chip" type="button">Autoclaves</button>
+          <button class="chip" type="button">Aire</button>
+          <button class="chip" type="button">Electricidad</button>
+          <button class="chip" type="button">Instalación</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid posts-8">
+          <article class="card post-card" data-post="checklist-mantenimiento" data-category="Mantenimiento">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Checklist de mantenimiento preventivo (clínica dental)">
+              <span class="media-badge">Mantenimiento</span>
+              <span class="media-placeholder" aria-hidden="true">
+                <img src="assets/img/mantenimiento-preventivo.svg" width="48" height="48" alt="" decoding="async" />
+              </span>
+            </a>
+            <div class="post-body">
+              <p class="meta">08 Ene 2026 · <span class="tag">Mantenimiento</span></p>
+              <h2 class="post-title"><a href="post.html">Checklist de mantenimiento preventivo (clínica dental)</a></h2>
+              <p class="small">Qué revisar cada semana para reducir fallas, ruidos y paradas inesperadas en equipos críticos.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card post-card" data-post="autoclaves-senales" data-category="Autoclaves">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Autoclaves: señales tempranas de falla">
+              <span class="media-badge">Autoclaves</span>
+              <span class="media-placeholder" aria-hidden="true">
+                <img src="assets/img/autoclaves-y-esterilizacion.svg" width="48" height="48" alt="" decoding="async" />
+              </span>
+            </a>
+            <div class="post-body">
+              <p class="meta">06 Ene 2026 · <span class="tag">Autoclaves</span></p>
+              <h2 class="post-title"><a href="post.html">Autoclaves: señales tempranas de falla</a></h2>
+              <p class="small">Indicadores comunes: tiempos de ciclo, sellos, presión y ruidos. Qué observar antes de una parada total.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card post-card" data-post="compresor-fugas" data-category="Aire">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Compresores: cómo detectar fugas y caídas de presión">
+              <span class="media-badge">Aire</span>
+              <span class="media-placeholder" aria-hidden="true">
+                <img src="assets/img/compresores-y-aire.svg" width="48" height="48" alt="" decoding="async" />
+              </span>
+            </a>
+            <div class="post-body">
+              <p class="meta">04 Ene 2026 · <span class="tag">Aire</span></p>
+              <h2 class="post-title"><a href="post.html">Compresores: detectar fugas y caídas de presión</a></h2>
+              <p class="small">Revisión rápida de mangueras, conexiones, válvulas y filtros para mantener estabilidad en el consultorio.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card post-card" data-post="iluminacion-segura" data-category="Electricidad">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Electricidad básica: buenas prácticas en el consultorio">
+              <span class="media-badge">Electricidad</span>
+              <span class="media-placeholder" aria-hidden="true">
+                <img src="assets/img/iluminacion-y-electricidad.svg" width="48" height="48" alt="" decoding="async" />
+              </span>
+            </a>
+            <div class="post-body">
+              <p class="meta">02 Ene 2026 · <span class="tag">Electricidad</span></p>
+              <h2 class="post-title"><a href="post.html">Electricidad básica: buenas prácticas en el consultorio</a></h2>
+              <p class="small">Protecciones, tomas, cargas y orden eléctrico: recomendaciones para evitar daños y riesgos.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card post-card" data-post="instalacion-puesta-en-marcha" data-category="Instalación">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Instalación y puesta en marcha: checklist esencial">
+              <span class="media-badge">Instalación</span>
+              <span class="media-placeholder" aria-hidden="true">
+                <img src="assets/img/instalacion-y-puesta-en-marcha.svg" width="48" height="48" alt="" decoding="async" />
+              </span>
+            </a>
+            <div class="post-body">
+              <p class="meta">30 Dic 2025 · <span class="tag">Instalación</span></p>
+              <h2 class="post-title"><a href="post.html">Instalación y puesta en marcha: checklist esencial</a></h2>
+              <p class="small">Antes de encender: entorno, energía, aire, agua (si aplica), conexiones y pruebas iniciales.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card post-card" data-post="ultrasonidos-cuidados" data-category="Mantenimiento">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Ultrasonidos: cuidados para evitar fallas frecuentes">
+              <span class="media-badge">Mantenimiento</span>
+              <span class="media-placeholder" aria-hidden="true">
+                <img src="assets/img/ultrasonidos-cavitrones.svg" width="48" height="48" alt="" decoding="async" />
+              </span>
+            </a>
+            <div class="post-body">
+              <p class="meta">28 Dic 2025 · <span class="tag">Mantenimiento</span></p>
+              <h2 class="post-title"><a href="post.html">Ultrasonidos: cuidados para evitar fallas frecuentes</a></h2>
+              <p class="small">Consejos prácticos para mantener rendimiento, reducir calentamiento y alargar vida útil del sistema.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card post-card" data-post="seguridad-esterilizacion" data-category="Autoclaves">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Esterilización: errores comunes y cómo evitarlos">
+              <span class="media-badge">Autoclaves</span>
+              <span class="media-placeholder" aria-hidden="true">
+                <img src="assets/img/autoclaves-y-esterilizacion.svg" width="48" height="48" alt="" decoding="async" />
+              </span>
+            </a>
+            <div class="post-body">
+              <p class="meta">20 Dic 2025 · <span class="tag">Autoclaves</span></p>
+              <h2 class="post-title"><a href="post.html">Esterilización: errores comunes y cómo evitarlos</a></h2>
+              <p class="small">Carga, sellado, mantenimiento de juntas y verificación de ciclos: puntos clave de control.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+
+          <article class="card post-card" data-post="aire-calidad" data-category="Aire">
+            <a class="post-media" href="post.html" aria-label="Leer artículo: Aire comprimido: calidad, filtros y mantenimiento">
+              <span class="media-badge">Aire</span>
+              <span class="media-placeholder" aria-hidden="true">
+                <img src="assets/img/compresores-y-aire.svg" width="48" height="48" alt="" decoding="async" />
+              </span>
+            </a>
+            <div class="post-body">
+              <p class="meta">15 Dic 2025 · <span class="tag">Aire</span></p>
+              <h2 class="post-title"><a href="post.html">Aire comprimido: calidad, filtros y mantenimiento</a></h2>
+              <p class="small">Qué revisar para evitar humedad, caída de presión y contaminación que afecte piezas y equipos.</p>
+              <a class="btn btn-ghost" href="post.html">Leer más</a>
+            </div>
+          </article>
+        </div>
+
+        <nav class="pagination" aria-label="Paginación (solo interfaz)">
+          <a class="btn btn-ghost" href="blog.html" aria-current="page">1</a>
+          <a class="btn btn-ghost" href="blog.html">2</a>
+          <a class="btn btn-ghost" href="blog.html">3</a>
+        </nav>
+
+        <div class="section-cta">
+          <a class="btn btn-primary" href="index.html#contacto">Hablar con Tecnodent</a>
+          <a class="btn btn-ghost" href="index.html#servicios">Ver servicios</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p class="small">© <span id="year">2026</span> Tecnodent. Contenido del blog editable. </p>
+    </div>
+  </footer>
+</body>
+</html>

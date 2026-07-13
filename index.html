@@ -1,361 +1,709 @@
 <!doctype html>
 <html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Tecnodent | Servicio técnico odontológico</title>
-  <meta name="description" content="Reparación, mantenimiento e instalación para consultorios odontológicos. Diagnóstico profesional, seguimiento y confianza." />
-  <meta name="theme-color" content="#111827" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tecnodent | Servicio técnico odontológico</title>
+    <meta
+      name="description"
+      content="Reparación, mantenimiento e instalación para consultorios odontológicos. Diagnóstico profesional, seguimiento y confianza."
+    />
+    <meta name="theme-color" content="#111827" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-  <!-- Skip link para accesibilidad (salta directo al contenido principal) -->
-  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <body>
+    <!-- Skip link para accesibilidad (salta directo al contenido principal) -->
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-  <!-- Header sticky: navegación principal -->
-  <header class="site-header" role="banner">
-    <div class="container header-inner">
-      <a class="brand" href="#inicio" aria-label="Ir al inicio">
-        <span class="brand-mark" aria-hidden="true">
-          <img
-            class="brand-mark__img"
-            src="assets/img/Logo.svg"
-            width="28"
-            height="28"
-            alt=""
-            decoding="async"
-          />
-        </span>
+    <!-- Header sticky: navegación principal -->
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio">
+          <span class="brand-mark" aria-hidden="true">
+            <img
+              class="brand-mark__img"
+              src="assets/img/Logo.svg"
+              width="28"
+              height="28"
+              alt=""
+              decoding="async"
+            />
+          </span>
 
-        <span class="brand-text">
-          <span class="brand-name">Tecnodent</span>
-          <span class="brand-tag">Servicio técnico odontológico</span>
-        </span>
-      </a>
+          <span class="brand-text">
+            <span class="brand-name">TECNODENT SOLUTIONS</span>
+            <span class="brand-tag">Servicio técnico odontológico</span>
+          </span>
+        </a>
 
-      <details class="nav-wrap">
-        <summary class="nav-summary" aria-label="Abrir menú">
-          <span class="sr-only">Abrir menú</span>
-          <span class="nav-icon" aria-hidden="true"></span>
-        </summary>
+        <details class="nav-wrap">
+          <summary class="nav-summary" aria-label="Abrir menú">
+            <span class="sr-only">Abrir menú</span>
+            <span class="nav-icon" aria-hidden="true"></span>
+          </summary>
 
-        <nav class="nav" aria-label="Navegación principal">
-          <a href="#servicios">Servicios</a>
-          <a href="#proceso">Proceso</a>
-          <a href="#faq">FAQ</a>
-          <a href="#contacto" class="nav-cta">Contacto</a>
-          <a href="blog.html">Blog</a>
-        </nav>
-      </details>
-    </div>
-  </header>
-
-  <main id="contenido">
-    <!-- Hero / Inicio -->
-    <section id="inicio" class="hero">
-      <div class="container hero-grid">
-        <div>
-          <p class="eyebrow"><span class="badge">Soporte técnico para consultorios odontológicos</span></p>
-          <h1>Tecnodent: soluciones técnicas confiables para tu consultorio odontológico</h1>
-          <p class="lead">Mantenimiento preventivo, correctivo, instalación y mejoras. Diagnóstico claro, trabajo limpio y seguimiento.</p>
-
-          <div class="hero-actions">
-            <a class="btn btn-primary" id="cta-whatsapp" href="https://wa.me/593963071055" aria-label="Escribir por WhatsApp">
-              Contactar por WhatsApp
-            </a>
-            <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
-          </div>
-
-          <ul class="hero-bullets">
-            <li>Atención rápida y profesional</li>
-            <li>Repuestos y soluciones seguras</li>
-            <li>Orientación técnica y recomendaciones</li>
-          </ul>
-        </div>
-
-        <div class="hero-card card">
-          <h2 class="h3">Agenda y soporte</h2>
-          <p class="small">Para diagnóstico inicial, envía: modelo del equipo, síntoma, cuándo ocurre y cualquier alerta visible.</p>
-
-          <div class="mini-stats">
-            <div>
-              <span class="stat">Preventivo</span>
-              <span class="small">Plan mensual o trimestral</span>
-            </div>
-            <div>
-              <span class="stat">Correctivo</span>
-              <span class="small">Reparación y pruebas</span>
-            </div>
-            <div>
-              <span class="stat">Instalación</span>
-              <span class="small">Puesta en marcha</span>
-            </div>
-          </div>
-
-          <a class="btn btn-secondary" href="mailto:juandi_z@hotmail.com">Enviar correo</a>
-        </div>
+          <nav class="nav" aria-label="Navegación principal">
+            <a href="#servicios">Servicios</a>
+            <a href="#trabajos">Trabajos</a>
+            <a href="#proceso">Proceso</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contacto" class="nav-cta">Contacto</a>
+            <a href="blog.html">Blog</a>
+          </nav>
+        </details>
       </div>
-    </section>
+    </header>
 
-    <!-- Servicios -->
-    <section id="servicios" class="section">
-      <div class="container">
-        <header class="section-header">
-          <h2>Servicios</h2>
-          <p>Soluciones para equipos críticos del consultorio. Selecciona lo que más te interesa y ajusta el texto a tu oferta real.</p>
-        </header>
+    <main id="contenido">
+      <!-- Hero / Inicio -->
+      <section id="inicio" class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">
+              <span class="badge"
+                >Soporte técnico para consultorios odontológicos</span
+              >
+            </p>
+            <h1>
+              Tecnodent: soluciones técnicas confiables para tu consultorio
+              odontológico
+            </h1>
+            <p class="lead">
+              Mantenimiento preventivo y correctivo, diagnóstico, reparación,
+              instalación y puesta en marcha de equipos odontológicos para
+              clínicas, consultorios y profesionales de la salud dental.
+            </p>
 
-        <div class="grid cards-8">
-          <!-- Card 1 -->
-          <article class="card service-card" data-service="diagnostico-y-reparacion">
-            <div class="icon" aria-hidden="true">
-              <img src="assets/img/diagnostico-y-reparacion.svg" width="22" height="22" alt="" decoding="async" />
-            </div>
-            <h3>Diagnóstico y reparación</h3>
-            <p>Evaluación de fallas, pruebas y reparación con reporte claro y recomendaciones.</p>
-          </article>
-
-          <!-- Card 2 -->
-          <article class="card service-card" data-service="mantenimiento-preventivo">
-            <div class="icon" aria-hidden="true">
-              <img src="assets/img/mantenimiento-preventivo.svg" width="22" height="22" alt="" decoding="async" />
-            </div>
-            <h3>Mantenimiento preventivo</h3>
-            <p>Limpieza técnica, ajustes, revisión de conexiones y chequeo general para evitar fallas.</p>
-          </article>
-
-          <!-- Card 3 -->
-          <article class="card service-card" data-service="instalacion-y-puesta-en-marcha">
-            <div class="icon" aria-hidden="true">
-              <img src="assets/img/instalacion-y-puesta-en-marcha.svg" width="22" height="22" alt="" decoding="async" />
-            </div>
-            <h3>Instalación y puesta en marcha</h3>
-            <p>Montaje, verificación de conexiones, pruebas iniciales y recomendaciones de uso seguro.</p>
-          </article>
-
-          <!-- Card 4 -->
-          <article class="card service-card" data-service="iluminacion-y-electricidad">
-            <div class="icon" aria-hidden="true">
-              <img src="assets/img/iluminacion-y-electricidad.svg" width="22" height="22" alt="" decoding="async" />
-            </div>
-            <h3>Iluminación y electricidad</h3>
-            <p>Revisión eléctrica básica, protecciones, continuidad y mejoras de iluminación (según requerimiento).</p>
-          </article>
-
-          <!-- Card 5 -->
-          <article class="card service-card" data-service="ultrasonidos-cavitrones">
-            <div class="icon" aria-hidden="true">
-              <img src="assets/img/ultrasonidos-cavitrones.svg" width="22" height="22" alt="" decoding="async" />
-            </div>
-            <h3>Ultrasonidos / Cavitrones</h3>
-            <p>Revisión de potencia, cableado, pieza de mano y pruebas de operación.</p>
-          </article>
-
-          <!-- Card 6 -->
-          <article class="card service-card" data-service="autoclaves-y-esterilizacion">
-            <div class="icon" aria-hidden="true">
-              <img src="assets/img/autoclaves-y-esterilizacion.svg" width="22" height="22" alt="" decoding="async" />
-            </div>
-            <h3>Esterilización / Autoclaves</h3>
-            <p>Chequeo de ciclos, sellos, sensores y mantenimiento para operación segura.</p>
-          </article>
-
-          <!-- Card 7 -->
-          <article class="card service-card" data-service="compresores-y-aire">
-            <div class="icon" aria-hidden="true">
-              <img src="assets/img/compresores-y-aire.svg" width="22" height="22" alt="" decoding="async" />
-            </div>
-            <h3>Compresores y aire</h3>
-            <p>Revisión de fugas, presión, filtros y mantenimiento general del sistema.</p>
-          </article>
-
-          <!-- Card 8 (sin SVG disponible) -->
-          <article class="card service-card" data-service="instalaciones-y-mejoras">
-            <div class="icon" aria-hidden="true"></div>
-            <h3>Instalaciones y mejoras</h3>
-            <p>Mejoras y adaptaciones en el consultorio para funcionalidad y seguridad.</p>
-          </article>
-        </div>
-
-        <div class="section-cta">
-          <a class="btn btn-primary" href="#contacto">Cotizar / Agendar</a>
-          <a class="btn btn-ghost" href="#proceso">Ver proceso</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Proceso -->
-    <section id="proceso" class="section section-muted">
-      <div class="container">
-        <header class="section-header">
-          <h2>Proceso de trabajo</h2>
-          <p>Transparente y ordenado para minimizar tiempos de parada.</p>
-        </header>
-
-        <div class="grid cards-4 process">
-          <article class="card">
-            <div class="step">1</div>
-            <h3>Recepción</h3>
-            <p class="small">Recibimos la solicitud y validamos el equipo, el síntoma y el contexto.</p>
-          </article>
-
-          <article class="card">
-            <div class="step">2</div>
-            <h3>Diagnóstico</h3>
-            <p class="small">Pruebas y revisión técnica para identificar la causa y definir solución.</p>
-          </article>
-
-          <article class="card">
-            <div class="step">3</div>
-            <h3>Intervención</h3>
-            <p class="small">Mantenimiento o reparación con buenas prácticas y verificación funcional.</p>
-          </article>
-
-          <article class="card">
-            <div class="step">4</div>
-            <h3>Entrega</h3>
-            <p class="small">Reporte, recomendaciones y seguimiento para asegurar estabilidad.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- FAQ -->
-    <section id="faq" class="section">
-      <div class="container">
-        <header class="section-header">
-          <h2>Preguntas frecuentes</h2>
-          <p>Respuestas rápidas. Puedes editar el contenido según tu oferta real.</p>
-        </header>
-
-        <div class="accordion">
-          <details class="card">
-            <summary>¿Qué información debo enviar para diagnóstico?</summary>
-            <div class="details-content small">
-              Modelo del equipo, descripción del síntoma, cuándo ocurre, fotos o videos si es posible y cualquier alarma o código.
-            </div>
-          </details>
-
-          <details class="card">
-            <summary>¿Realizas mantenimiento preventivo programado?</summary>
-            <div class="details-content small">
-              Sí. Se puede planificar mensual o trimestral según carga de trabajo y criticidad de equipos.
-            </div>
-          </details>
-
-          <details class="card">
-            <summary>¿Trabajas con repuestos?</summary>
-            <div class="details-content small">
-              Dependiendo del equipo, se gestionan repuestos compatibles y se valida funcionamiento antes de entrega.
-            </div>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contacto -->
-    <section id="contacto" class="section section-muted">
-      <div class="container split">
-        <div>
-          <h2>Contacto</h2>
-          <p>Escríbenos y cuéntanos el equipo y el síntoma. Respondemos con orientación inicial y próximos pasos.</p>
-
-          <div class="contact-cards">
-            <div class="card">
-              <h3>WhatsApp</h3>
-              <p class="small">0963071055</p>
-              <a class="btn btn-primary" id="contacto-whatsapp" href="https://wa.me/593963071055">Abrir WhatsApp</a>
-            </div>
-
-            <div class="card">
-              <h3>Email</h3>
-              <p class="small">juandi_z@hotmail.com</p>
-              <a class="btn btn-secondary" href="mailto:juandi_z@hotmail.com">Enviar correo</a>
-            </div>
-
-            <div class="card">
-              <h3>Ubicación</h3>
-              <p class="small">Cuenca, Ecuador</p>
+            <div class="hero-actions">
+              <a
+                class="btn btn-primary"
+                id="cta-whatsapp"
+                href="https://wa.me/593963071055"
+                aria-label="Escribir por WhatsApp"
+              >
+                Contactar por WhatsApp
+              </a>
               <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
             </div>
+
+            <ul class="hero-bullets">
+              <li>Atención técnica responsable y organizada</li>
+              <li>Diagnóstico y comunicación clara del trabajo requerido</li>
+              <li>
+                Servicio para clínicas y consultorios de Cuenca y zonas cercanas
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-card card">
+            <h2 class="h3">Agenda y soporte</h2>
+            <p class="small">
+              Para diagnóstico inicial, envía: modelo del equipo, síntoma,
+              cuándo ocurre y cualquier alerta visible.
+            </p>
+
+            <div class="mini-stats">
+              <div>
+                <span class="stat">Preventivo</span>
+                <span class="small">Plan mensual o trimestral</span>
+              </div>
+              <div>
+                <span class="stat">Correctivo</span>
+                <span class="small">Reparación y pruebas</span>
+              </div>
+              <div>
+                <span class="stat">Instalación</span>
+                <span class="small">Puesta en marcha</span>
+              </div>
+            </div>
+
+            <a class="btn btn-secondary" href="mailto:juandi_z@hotmail.com"
+              >Enviar correo</a
+            >
           </div>
         </div>
+      </section>
 
-        <div class="card">
-          <h3 class="h3">Formulario (UI)</h3>
-          <p class="small">Este formulario es solo visual por ahora. Más adelante lo conectamos con JavaScript o un servicio.</p>
+      <!-- Servicios -->
+      <section id="servicios" class="section">
+        <div class="container">
+          <header class="section-header">
+            <h2>Servicios</h2>
+            <p>
+              Soluciones técnicas orientadas a conservar la operatividad,
+              seguridad y vida útil de los equipos utilizados en el entorno
+              odontológico.
+            </p>
+          </header>
+
+          <div class="grid cards-8">
+            <!-- Card 1 -->
+            <article
+              class="card service-card"
+              data-service="diagnostico-y-reparacion"
+            >
+              <div class="icon" aria-hidden="true">
+                <img
+                  src="assets/img/diagnostico-y-reparacion.svg"
+                  width="22"
+                  height="22"
+                  alt=""
+                  decoding="async"
+                />
+              </div>
+              <h3>Diagnóstico y reparación</h3>
+              <p>
+                Evaluación de fallas, pruebas y reparación con reporte claro y
+                recomendaciones.
+              </p>
+            </article>
+
+            <!-- Card 2 -->
+            <article
+              class="card service-card"
+              data-service="mantenimiento-preventivo"
+            >
+              <div class="icon" aria-hidden="true">
+                <img
+                  src="assets/img/mantenimiento-preventivo.svg"
+                  width="22"
+                  height="22"
+                  alt=""
+                  decoding="async"
+                />
+              </div>
+              <h3>Mantenimiento preventivo</h3>
+              <p>
+                Limpieza técnica, ajustes, revisión de conexiones y chequeo
+                general para evitar fallas.
+              </p>
+            </article>
+
+            <!-- Card 3 -->
+            <article
+              class="card service-card"
+              data-service="instalacion-y-puesta-en-marcha"
+            >
+              <div class="icon" aria-hidden="true">
+                <img
+                  src="assets/img/instalacion-y-puesta-en-marcha.svg"
+                  width="22"
+                  height="22"
+                  alt=""
+                  decoding="async"
+                />
+              </div>
+              <h3>Instalación y puesta en marcha</h3>
+              <p>
+                Montaje, verificación de conexiones, pruebas iniciales y
+                recomendaciones de uso seguro.
+              </p>
+            </article>
+
+            <!-- Card 4 -->
+            <article
+              class="card service-card"
+              data-service="iluminacion-y-electricidad"
+            >
+              <div class="icon" aria-hidden="true">
+                <img
+                  src="assets/img/iluminacion-y-electricidad.svg"
+                  width="22"
+                  height="22"
+                  alt=""
+                  decoding="async"
+                />
+              </div>
+              <h3>Iluminación y electricidad</h3>
+              <p>
+                Revisión eléctrica básica, protecciones, continuidad y mejoras
+                de iluminación (según requerimiento).
+              </p>
+            </article>
+
+            <!-- Card 5 -->
+            <article
+              class="card service-card"
+              data-service="ultrasonidos-cavitrones"
+            >
+              <div class="icon" aria-hidden="true">
+                <img
+                  src="assets/img/ultrasonidos-cavitrones.svg"
+                  width="22"
+                  height="22"
+                  alt=""
+                  decoding="async"
+                />
+              </div>
+              <h3>Ultrasonidos / Cavitrones</h3>
+              <p>
+                Revisión de potencia, cableado, pieza de mano y pruebas de
+                operación.
+              </p>
+            </article>
+
+            <!-- Card 6 -->
+            <article
+              class="card service-card"
+              data-service="autoclaves-y-esterilizacion"
+            >
+              <div class="icon" aria-hidden="true">
+                <img
+                  src="assets/img/autoclaves-y-esterilizacion.svg"
+                  width="22"
+                  height="22"
+                  alt=""
+                  decoding="async"
+                />
+              </div>
+              <h3>Esterilización / Autoclaves</h3>
+              <p>
+                Chequeo de ciclos, sellos, sensores y mantenimiento para
+                operación segura.
+              </p>
+            </article>
+
+            <!-- Card 7 -->
+            <article
+              class="card service-card"
+              data-service="compresores-y-aire"
+            >
+              <div class="icon" aria-hidden="true">
+                <img
+                  src="assets/img/compresores-y-aire.svg"
+                  width="22"
+                  height="22"
+                  alt=""
+                  decoding="async"
+                />
+              </div>
+              <h3>Compresores y aire</h3>
+              <p>
+                Revisión de fugas, presión, filtros y mantenimiento general del
+                sistema.
+              </p>
+            </article>
+
+            <!-- Card 8 (sin SVG disponible) -->
+            <article
+              class="card service-card"
+              data-service="instalaciones-y-mejoras"
+            >
+              <div class="icon" aria-hidden="true"></div>
+              <h3>Instalaciones y mejoras</h3>
+              <p>
+                Mejoras y adaptaciones en el consultorio para funcionalidad y
+                seguridad.
+              </p>
+            </article>
+          </div>
+
+          <div class="section-cta">
+            <a class="btn btn-primary" href="#contacto">Cotizar / Agendar</a>
+            <a class="btn btn-ghost" href="#proceso">Ver proceso</a>
+          </div>
+        </div>
+      </section>
+      <section id="trabajos" class="section section-muted">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">
+              <span class="badge">Experiencia aplicada</span>
+            </p>
+
+            <h2>Trabajos técnicos y áreas de atención</h2>
+
+            <p>
+              Algunas de las actividades realizadas en equipos, sistemas e
+              instalaciones del entorno odontológico.
+            </p>
+          </header>
+
+          <div class="work-grid">
+            <figure class="work-card">
+              <img
+                src="assets/fotos/mantenimiento-sillon.webp"
+                alt="Mantenimiento técnico de una unidad odontológica"
+                width="1400"
+                height="1050"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>
+                <strong>Unidades odontológicas</strong>
+                <span>Inspección, mantenimiento y pruebas funcionales.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="work-card">
+              <img
+                src="assets/fotos/revision-compresor.webp"
+                alt="Revisión técnica de un compresor odontológico"
+                width="1400"
+                height="1050"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>
+                <strong>Compresores y sistemas de aire</strong>
+                <span>Presión, conexiones, filtros y detección de fugas.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="work-card">
+              <img
+                src="assets/fotos/reparacion-electronica.webp"
+                alt="Diagnóstico electrónico de un equipo odontológico"
+                width="1400"
+                height="1050"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>
+                <strong>Diagnóstico electrónico</strong>
+                <span>Revisión de tarjetas, conexiones y componentes.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="work-card">
+              <img
+                src="assets/fotos/instalacion-consultorio.webp"
+                alt="Instalación técnica dentro de un consultorio odontológico"
+                width="1400"
+                height="1050"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>
+                <strong>Instalación y puesta en marcha</strong>
+                <span>Montaje, conexión y comprobación operativa.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="work-card">
+              <img
+                src="assets/fotos/herramientas-tecnicas.webp"
+                alt="Herramientas utilizadas para mantenimiento odontológico"
+                width="1400"
+                height="1050"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>
+                <strong>Herramientas técnicas</strong>
+                <span>Instrumentación para inspección y diagnóstico.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="work-card">
+              <img
+                src="assets/fotos/consultorio-odontologico.webp"
+                alt="Consultorio odontológico equipado"
+                width="1400"
+                height="1050"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>
+                <strong>Consultorios odontológicos</strong>
+                <span
+                  >Revisión integral de equipos y condiciones técnicas.</span
+                >
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!-- Proceso -->
+      <section id="proceso" class="section section-muted">
+        <div class="container">
+          <header class="section-header">
+            <h2>Proceso de trabajo</h2>
+            <p>Transparente y ordenado para minimizar tiempos de parada.</p>
+          </header>
+
+          <div class="grid cards-4 process">
+            <article class="card">
+              <div class="step">1</div>
+              <h3>Recepción</h3>
+              <p class="small">
+                Recibimos la solicitud y validamos el equipo, el síntoma y el
+                contexto.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="step">2</div>
+              <h3>Diagnóstico</h3>
+              <p class="small">
+                Pruebas y revisión técnica para identificar la causa y definir
+                solución.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="step">3</div>
+              <h3>Intervención</h3>
+              <p class="small">
+                Mantenimiento o reparación con buenas prácticas y verificación
+                funcional.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="step">4</div>
+              <h3>Entrega</h3>
+              <p class="small">
+                Reporte, recomendaciones y seguimiento para asegurar
+                estabilidad.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="section">
+        <div class="container">
+          <header class="section-header">
+            <h2>Preguntas frecuentes</h2>
+            <p>
+              Información básica para solicitar una revisión, coordinar
+              mantenimiento y preparar los datos técnicos del equipo.
+            </p>
+          </header>
+
+          <div class="accordion">
+            <details class="card">
+              <summary>¿Qué información debo enviar para diagnóstico?</summary>
+              <div class="details-content small">
+                Modelo del equipo, descripción del síntoma, cuándo ocurre, fotos
+                o videos si es posible y cualquier alarma o código.
+              </div>
+            </details>
+
+            <details class="card">
+              <summary>¿Realizas mantenimiento preventivo programado?</summary>
+              <div class="details-content small">
+                Sí. Se puede planificar mensual o trimestral según carga de
+                trabajo y criticidad de equipos.
+              </div>
+            </details>
+
+            <details class="card">
+              <summary>¿Trabajas con repuestos?</summary>
+              <div class="details-content small">
+                Dependiendo del equipo, se gestionan repuestos compatibles y se
+                valida funcionamiento antes de entrega.
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="section section-muted">
+        <div class="container split">
+          <div>
+            <h2>Contacto</h2>
+            <p>
+              Escríbenos y cuéntanos el equipo y el síntoma. Respondemos con
+              orientación inicial y próximos pasos.
+            </p>
+
+            <div class="contact-cards">
+              <div class="card">
+                <h3>WhatsApp</h3>
+                <p class="small">0963071055</p>
+                <a
+                  class="btn btn-primary"
+                  id="contacto-whatsapp"
+                  href="https://wa.me/593963071055"
+                  >Abrir WhatsApp</a
+                >
+              </div>
+
+              <div class="card">
+                <h3>Email</h3>
+                <p class="small">juandi_z@hotmail.com</p>
+                <a class="btn btn-secondary" href="mailto:juandi_z@hotmail.com"
+                  >Enviar correo</a
+                >
+              </div>
+
+              <div class="card">
+                <h3>Ubicación</h3>
+                <p class="small">Cuenca, Ecuador</p>
+                <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="h3">Solicitar asistencia técnica</h3>
+
+            <p class="small">
+              Completa los datos y presiona el botón. La información se abrirá
+              como un mensaje de WhatsApp para que puedas revisarla antes de
+              enviarla.
+            </p>
+
+            <form class="form" id="whatsapp-form">
+              <label for="contact-name">
+                Nombre o clínica
+                <input
+                  id="contact-name"
+                  type="text"
+                  name="name"
+                  autocomplete="name"
+                  placeholder="Ej. Clínica Dental Central"
+                  required
+                />
+              </label>
+
+              <label for="contact-phone">
+                Teléfono
+                <input
+                  id="contact-phone"
+                  type="tel"
+                  name="phone"
+                  autocomplete="tel"
+                  placeholder="Ej. 099 000 0000"
+                />
+              </label>
+
+              <label for="contact-equipment">
+                Equipo
+                <input
+                  id="contact-equipment"
+                  type="text"
+                  name="equipment"
+                  placeholder="Ej. Autoclave, sillón o compresor"
+                  required
+                />
+              </label>
+
+              <label for="contact-message">
+                Falla o servicio requerido
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  rows="5"
+                  placeholder="Describe qué ocurre, desde cuándo y si aparece alguna alarma."
+                  required
+                ></textarea>
+              </label>
+
+              <button class="btn btn-primary" type="submit">
+                Continuar en WhatsApp
+              </button>
+
+              <p class="small muted">
+                El formulario no almacena tus datos. Únicamente prepara el
+                mensaje en WhatsApp.
+              </p>
+            </form>
+          </div>
 
           <form class="form" action="#" method="post" novalidate>
             <label>
               Nombre
-              <input type="text" name="name" autocomplete="name" placeholder="[Tu nombre]" />
+              <input
+                type="text"
+                name="name"
+                autocomplete="name"
+                placeholder="[Tu nombre]"
+              />
             </label>
 
             <label>
               Email
-              <input type="email" name="email" autocomplete="email" placeholder="[tuemail@dominio.com]" />
+              <input
+                type="email"
+                name="email"
+                autocomplete="email"
+                placeholder="[tuemail@dominio.com]"
+              />
             </label>
 
             <label>
               Equipo / problema
-              <textarea name="message" rows="5" placeholder="Ej: Autoclave no llega a presión / Sillón no sube / Compresor con fuga..."></textarea>
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Ej: Autoclave no llega a presión / Sillón no sube / Compresor con fuga..."
+              ></textarea>
             </label>
 
             <button class="btn btn-primary" type="submit">Enviar (UI)</button>
           </form>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <div class="footer-brand">
-          <span class="brand-mark" aria-hidden="true">
-            <img class="brand-mark__img" src="assets/img/Logo.svg" width="26" height="26" alt="" decoding="async" />
-          </span>
-          <strong>Tecnodent</strong>
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">
+            <span class="brand-mark" aria-hidden="true">
+              <img
+                class="brand-mark__img"
+                src="assets/img/Logo.svg"
+                width="26"
+                height="26"
+                alt=""
+                decoding="async"
+              />
+            </span>
+            <strong>Tecnodent</strong>
+          </div>
+          <p class="small">
+            Reparación, mantenimiento e instalación para consultorios
+            odontológicos. Enfoque técnico, profesional y orientado a
+            resultados.
+          </p>
         </div>
+
+        <div>
+          <h3>Secciones</h3>
+          <ul class="footer-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#proceso">Proceso</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contacto</h3>
+          <ul class="footer-links">
+            <li>
+              <a href="mailto:juandi_z@hotmail.com">juandi_z@hotmail.com</a>
+            </li>
+            <li><a href="https://wa.me/593963071055">WhatsApp</a></li>
+            <li><a href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Legal</h3>
+          <ul class="footer-links">
+            <li><a href="#">Política de privacidad (placeholder)</a></li>
+            <li><a href="#">Términos de servicio (placeholder)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
         <p class="small">
-          Reparación, mantenimiento e instalación para consultorios odontológicos. Enfoque técnico, profesional y orientado a resultados.
+          © <span id="year">2026</span> Tecnodent. Todos los derechos
+          reservados.
         </p>
       </div>
-
-      <div>
-        <h3>Secciones</h3>
-        <ul class="footer-links">
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#servicios">Servicios</a></li>
-          <li><a href="#proceso">Proceso</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#contacto">Contacto</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h3>Contacto</h3>
-        <ul class="footer-links">
-          <li><a href="mailto:juandi_z@hotmail.com">juandi_z@hotmail.com</a></li>
-          <li><a href="https://wa.me/593963071055">WhatsApp</a></li>
-          <li><a href="blog.html">Blog</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <h3>Legal</h3>
-        <ul class="footer-links">
-          <li><a href="#">Política de privacidad (placeholder)</a></li>
-          <li><a href="#">Términos de servicio (placeholder)</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="container footer-bottom">
-      <p class="small">© <span id="year">2026</span> Tecnodent. Todos los derechos reservados.</p>
-    </div>
-  </footer>
-</body>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>

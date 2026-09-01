@@ -1237,3 +1237,306 @@ img.brand-mark__img {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================================
+   ICONOS DE SERVICIOS - TECNODENT SOLUTIONS
+   ========================================================= */
+
+.service-icon {
+  width: 76px;
+  height: 76px;
+  padding: 0;
+  margin-bottom: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(45, 212, 191, 0.18);
+  border-radius: 18px;
+
+  background: #0b1220;
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.25),
+    0 0 18px rgba(45, 212, 191, 0.05);
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.service-icon img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 17px;
+}
+
+/* Efecto discreto al pasar el mouse sobre la tarjeta */
+
+.service-card:hover .service-icon {
+  transform: translateY(-2px);
+
+  border-color: rgba(45, 212, 191, 0.38);
+
+  box-shadow:
+    0 10px 26px rgba(0, 0, 0, 0.3),
+    0 0 22px rgba(45, 212, 191, 0.1);
+}
+
+/* Mantiene las tarjetas visualmente ordenadas */
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Tablets */
+
+@media (max-width: 900px) {
+  .service-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 17px;
+  }
+
+  .service-icon img {
+    border-radius: 16px;
+  }
+}
+
+/* Teléfonos */
+
+@media (max-width: 580px) {
+  .service-icon {
+    width: 68px;
+    height: 68px;
+    margin-bottom: 16px;
+    border-radius: 16px;
+  }
+
+  .service-icon img {
+    border-radius: 15px;
+  }
+}
+
+/* =========================================================
+   ICONOS PEQUEÑOS EN ARTÍCULOS
+   ========================================================= */
+
+.mini-icon {
+  width: 40px;
+  height: 40px;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  background: #0b1220;
+
+  border: 1px solid rgba(45, 212, 191, 0.18);
+
+  border-radius: 12px;
+}
+
+.mini-icon img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  border-radius: 11px;
+}
+
+/* =========================================================
+   ICONOS DEL BLOG
+   ========================================================= */
+
+.media-placeholder {
+  width: 76px;
+  height: 76px;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  border-radius: 18px;
+
+  border: 1px solid rgba(45, 212, 191, 0.18);
+
+  background: #0b1220;
+}
+
+.media-placeholder img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  border-radius: 17px;
+}
+
+/* =========================================================
+   ICONOS NUEVOS - TECNODENT SOLUTIONS
+   ========================================================= */
+
+/* ---------- Servicios ---------- */
+
+.service-icon {
+  width: 76px;
+  height: 76px;
+  padding: 0;
+  margin-bottom: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(45, 212, 191, 0.18);
+  border-radius: 18px;
+
+  background: #0b1220;
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.25),
+    0 0 18px rgba(45, 212, 191, 0.05);
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.service-icon img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 17px;
+}
+
+.service-card:hover .service-icon {
+  transform: translateY(-2px);
+
+  border-color: rgba(45, 212, 191, 0.38);
+
+  box-shadow:
+    0 10px 26px rgba(0, 0, 0, 0.3),
+    0 0 22px rgba(45, 212, 191, 0.1);
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* ---------- Blog ---------- */
+
+.media-placeholder {
+  width: 76px;
+  height: 76px;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  border-radius: 18px;
+
+  border: 1px solid rgba(45, 212, 191, 0.18);
+
+  background: #0b1220;
+}
+
+.media-placeholder img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  border-radius: 17px;
+}
+
+/* ---------- Post / artículos ---------- */
+
+.mini-icon {
+  width: 40px;
+  height: 40px;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  flex: 0 0 auto;
+
+  background: #0b1220;
+
+  border: 1px solid rgba(45, 212, 191, 0.18);
+
+  border-radius: 12px;
+}
+
+.mini-icon img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  border-radius: 11px;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 900px) {
+  .service-icon {
+    width: 72px;
+    height: 72px;
+    border-radius: 17px;
+  }
+
+  .service-icon img {
+    border-radius: 16px;
+  }
+}
+
+@media (max-width: 580px) {
+  .service-icon {
+    width: 68px;
+    height: 68px;
+    margin-bottom: 16px;
+    border-radius: 16px;
+  }
+
+  .service-icon img {
+    border-radius: 15px;
+  }
+
+  .media-placeholder {
+    width: 68px;
+    height: 68px;
+  }
+}
